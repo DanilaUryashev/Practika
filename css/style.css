@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    padding: 0px 0;
+    color:white;
+}
+.wrap{
+    width: 1140px;
+    margin: 0px auto;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: rgb(15, 15, 15);
+    padding: 0 0;
+    color:white;
+}
+.menu-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo{
+    background-color: blanchedalmond;
+}
+.promo-wrap{
+    background-image: url(/img/promo.png);
+    min-height: 810px;
+    min-width: 1830px;
+   background-repeat: no-repeat;
+   display: center;
+   align-items: flex;
+   justify-content: flex-end;
+}
+.categories
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center
+{
+    display: center;
+   align-items: center;
+   justify-content: center;
+}
+.categories-item
+{
+   width: 1040px;
+   height: 730px; 
+}
+.categories-item1
+{
+   width: 880px;
+   height: 730px; 
+}
+.season-wrap{
+    background-image: url(/img/new-season.png);  
+}
+.collection-wrap{
+    background-image: url(/img/new-collection.png);
+}
