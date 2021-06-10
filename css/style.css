@@ -21,6 +21,15 @@
     margin: 0;
     padding: 0;
 }
+.text-up{
+    color: rgb(145, 144, 144);
+}
+.right
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
 .menu{
     background-color: rgb(15, 15, 15);
     padding: 0 0;
@@ -29,19 +38,53 @@
 .menu-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;  
+}
+.button
+{
+    height: 80px;
+    width: 136px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+.like{
+    background-image: url(../img/buttonliked.png);
+    
+}
+.text-button{
+    text-align: center;
+    color: rgb(109, 102, 102);
+}
 .promo{
-    background-color: blanchedalmond;
+    background-color: blanchedalmond;  
 }
 .promo-wrap{
     background-image: url(/img/promo.png);
     min-height: 810px;
-    min-width: 1830px;
-   background-repeat: no-repeat;
-   display: center;
-   align-items: flex;
-   justify-content: flex-end;
+    min-width: 1920px;
+    color: white;
+    text-align: center;  
+}
+.rectangle{
+    background-image: url(../img/rectangle.png);
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+    margin-bottom: 200px;
+}
+.imagetext{
+    font-size: large; 
 }
 .categories
 {
@@ -54,19 +97,126 @@
    align-items: center;
    justify-content: center;
 }
-.categories-item
+.data
 {
-   width: 1040px;
-   height: 730px; 
+    font-family: cursive;
 }
-.categories-item1
+.seasontxt
 {
-   width: 880px;
-   height: 730px; 
+font-size: 50px;
+font-family: Playfair Display;
+padding-top: 50px;
+}
+.line{
+    background-image: url(../img/Line.png);
+    width: 120px;
+    height: 1px;
+    margin-top: 51px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.season{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 .season-wrap{
-    background-image: url(/img/new-season.png);  
+    background-image: url(/img/new-season.png);
+    color:white;
+    width: 1040px;
+    height: 730px; 
+    text-align: center;
+    
+}
+.season-watch{
+    background-image: url(../img/watchrec.png);
+    width: 260px;
+    height: 325px;
+    color: white;
+    
+}
+.watch
+{
+    background-image: url(../img/watch.png);
+    width: 215px;
+    height: 214px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20%;
+    margin-bottom: 110px;
+}
+.price
+{
+    text-align: left;
+    font-size: 25px;
+    font-family: Lucida Sans Regular;
 }
 .collection-wrap{
     background-image: url(/img/new-collection.png);
+    width: 880px;
+    height: 730px;
+    color: white;
+}
+.d{
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    position: relative;
+    top: 75%;
+    margin-bottom: 110px;
+}
+.line1{
+    background-image: url(../img/Line.png);
+    width: 120px;
+    height: 1px;
+    margin-top: 601px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.catalog{
+    background-image: url(../img/catalog.png);
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 370px;
+    width: 138px;
+    height: 47px;
+    text-align: center;  
+}
+.colection2018
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cbimage{
+    background-image: url(../img/cbimage.png);
+    width: 880px;
+    height: 600px;
+}
+.colec2018{
+    background-image: url(../img/colection2018.png);
+    width: 1040px;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+.text
+{
+    margin-top: 100px;
+}
+.viev-colection{
+    background-image: url(../img/COLEction.png);
+    width: 311px;
+    height: 47px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 36%;
+}
+.new{
+    width: 1920px;
+    height: 1289px;
+    background-color: black;
 }
