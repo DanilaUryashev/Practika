@@ -40,15 +40,9 @@
                 </a>
             </nav>
             <nav class="right">
-                <div class="button like">
-                    <p>Понравилось</p>
-                </div>
-                <div class="button cabinet">
-                    <p class="text-button"> Личный кабинет</p>
-                </div>
-                <div class="button setting">
-                    <p class="text-button"> Настройки</p>
-                </div>
+                <button class="button">ПОНРАВИЛОСЬ</button>
+                <button class="button disabled">ЛИЧНЫЙ КАБИНЕТ</button>
+                <button class="button disabled">НАСТРОЙКИ</button>
 
                 <a href="#" class="cart">
                     <svg width="59" height="80" viewBox="0 0 59 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,37 +80,43 @@
                     </p>
                 </div>
             </div>
-            <a class="imagetext"> Lorem ipsum dolor sit amet, consectetur adip
-                iscing elit. Purus interdum purus, est tortor <p></p>
+            <div class="imagetext"> Lorem ipsum dolor sit amet, consectetur adip
+                iscing elit. Purus interdum purus, est tortor
                 pulvinar ut in. Fringilla a diam enim se
                 d justo, sed iaculis
                 sagittis. Tortor id eu
-                interdum <p></p> nec ut
+                interdum nec ut
                 iaculis. Penatibus ullamcorper ultricies mo
                 rbi ipsum sem metus phare
-                tra, mi. <p></p> Tortor nibh magn
-                a feugiat id nunc, dui nisl viverra</a>
+                tra, mi. Tortor nibh magn
+                a feugiat id nunc, dui nisl viverra</div>
         </div>
     </section>
     <main>
-        <section class="categories center">
+        <section class="categories wrap">
             <div class="season-wrap">
                 <p class="seasontxt">Сезон 2020/21</p>
                 <div class="line"></div>
                 <div class=" season">
-                    <div class="season-watch">
-                        <div class="watch"></div>
-                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                    <div class="watch-item">
+                        <div class="season-watch">
+                            <div class="watch"></div>
+                            <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="season-watch">
-                        <div class="watch"></div>
-                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                    <div class="watch-item">
+                        <div class="season-watch">
+                            <div class="watch"></div>
+                            <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="season-watch">
-                        <div class="watch"></div>
-                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                    <div class="watch-item">
+                        <div class="season-watch">
+                            <div class="watch"></div>
+                            <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -124,30 +124,161 @@
             </div>
             <div class="collection-wrap">
                 <p class="d">НОВАЯ КОЛЛЕКЦИЯ</p>
-                <div class="line1"></div>
-                <div class="catalog">
-                </div>
+                <div class="line"></div>
+                <button class="button-image">
+                    <p class="button-imagetext">КАТАЛОГ</p>
+                </button>
             </div>
 
         </section>
 
 
-        <section class="colection2018">
+        <section class="colection2018 wrap">
             <div class="cbimage"></div>
             <div class="colec2018">
                 <div class="seasontxt">КОЛЛЕКЦИЯ 2018</div>
                 <div class="line"></div>
-                <div class="imagetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut <p>
-                    </p> mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus <p></p>
-                    vestibulum nisi et venenatis sed scelerisque magna consectetur. Amet <p></p> convallis quis gravida
-                    facilisis vulputate. Faucibus facilisi habitasse ipsum <p></p> interdum dictum aliquet. Velit quis
-                    ullamcorper pulvinar nulla malesuada <p></p> integer. Aenean praesent viverra nulla nullam natoque
-                    volutpat curabitur <p></p> auctor. Viverra viverra ullamcorper scelerisque risus dignissim egestas.
-                    Id <p></p> aliquam a aliquam egestas leo orci pharetra sed diam. </div>
+                <div class="imagetext1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut
+                    mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus
+                    vestibulum nisi et venenatis sed scelerisque magna consectetur. Amet convallis quis gravida
+                    facilisis vulputate. Faucibus facilisi habitasse ipsum interdum dictum aliquet. Velit quis
+                    ullamcorper pulvinar nulla malesuada integer. Aenean praesent viverra nulla nullam natoque
+                    volutpat curabitur auctor. Viverra viverra ullamcorper scelerisque risus dignissim egestas.
+                    Id aliquam a aliquam egestas leo orci pharetra sed diam.
+                </div>
+                <button class="button-image">
+                    <p class="button-imagetext">ПОСМОТРЕТЬ КОЛЛЕЦИЮ</p>
+                </button>
             </div>
         </section>
-        <section class="new"></section>
+        <section class="receipts wrap">
+            <p class="seasontxt">НОВЫЕ ПОСТУПЛЕНИЯ</p>
+            <div class="line"></div>
+            <div class="receipts-collection">
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-item">
+                    <div class="season-watch">
+                        <div class="watch"></div>
+                        <div class="price">Louis XVI ATHOS <p>165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <section class="wrap brend">
+            <p class="seasontxt">НАШИ БРЕНДЫ</p>
+            <div class="line"></div>
+            <div class="item-brand">
+                <div class="brand"> </div>
+                <div class="brand"></div>
+                <div class="brand"></div>
+                <div class="brand"></div>
+            </div>
+        </section>
+        <section class="wrap feature">
+            <div class="feature-item">
+                <div class="text-inf"> О МАГАЗИНЕ
+                    <p class="inf"> Lorem ipsum dolor sit amet, consectetu
+                        r adipiscing elit. Mi semper viverra nunc cursus t
+                        ortor lectus nunc nulla nibh. Egestas amet consectetu
+                        r vel vitae aliquam dictum suspendisse. Lobortis eget
+                        consequat, tellus et et sed turpis. Pretium quisque vi
+                        tae, amet, porttitor odio ultricies massa pharetra leo
+                        . Et ipsum urna fames in sit mi ultrices nisi, nunc.</p>
+                </div>
+                <div class="text-inf">КАТЕГОРИИ
+                    <p><button class="buttons">
+                            <p class="text-buttons">ЧАСЫ</p>
+                        </button>
+                        <button class="buttons">
+                            <p class="text-buttons">БРАСЛЕТЫ</p>
+                        </button>
+                        <button class="buttons">
+                            <p class="text-buttons">РЕМНИ</p>
+                        </button>
+                        <button class="buttons">
+                            <p class="text-buttons">ЮВЕЛИРНЫЕ ИЗДЕЛИЯ</p>
+                        </button>
+                        <button class="buttons">
+                            <p class="text-buttons">ЗАПОНКИ</p>
+                        </button>
+                    </p>
+                </div>
+
+                <div class="text-inf">РАССЫЛКА
+                    <div class="inf">Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit. Mi semper viverr
+                        a nunc cursus tortor lectus nunc nulla nibh.
+                        <form class="feedback-button">
+                            <input type="email" class="feedback-text" placeholder="  Ваша почта" minlength="5"
+                                maxlength="20" required>
+                            <button type="submit" class="feedback-submit">
+                                ПОДПИСАТЬСЯ
+                            </button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <section class="wrap fooooooter">
+            <nav class="fooooooter-left">
+                © 2020 Все права защищены
+            </nav>
+            <nav class="fooooooter-right">
+                Сделано Figma.info
+            </nav>
+        </section>
+    </footer>
+
 </body>
 
 </html>

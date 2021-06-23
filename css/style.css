@@ -17,10 +17,6 @@
     justify-content: space-between;
     align-items: center;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
 .text-up{
     color: rgb(145, 144, 144);
 }
@@ -31,8 +27,7 @@
     align-items: center; 
 }
 .menu{
-    background-color: rgb(15, 15, 15);
-    padding: 0 0;
+    background-color: #0F0F0F;
     color:white;
 }
 .menu-wrap{
@@ -42,21 +37,17 @@
 }
 .button
 {
-    height: 80px;
-    width: 136px;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ background-color: #1F1F1F;
+ color: white;
+ width: 136px;
+ height: 80px;
+ border-style: none;
+ margin: 4px 2px;
 }
-.like{
-    background-image: url(../img/buttonliked.png);
-    
-}
-.text-button{
-    text-align: center;
-    color: rgb(109, 102, 102);
+.disabled
+{
+background-color: #0F0F0F;
+color: #969696;
 }
 .promo{
     background-color: blanchedalmond;  
@@ -83,13 +74,32 @@
     top: 150px;
     margin-bottom: 200px;
 }
-.imagetext{
+.imagetext{  
+    font-family: PT Sans;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    width: 730px;
+    height: 96px;
+    margin-left: 595px;
+}
+.imagetext1{
     font-size: large; 
+    padding-top: 40px;
+    width: 471px;
+    height: 173px;
+    text-align: center;
+    margin-left: 285px;
+    padding-bottom: 30px;
+
+
 }
 .categories
 {
     display: flex;
     flex-wrap: wrap;
+    width: 1920px;
+    height: 730px;
 }
 .center
 {
@@ -103,15 +113,18 @@
 }
 .seasontxt
 {
-font-size: 50px;
-font-family: Playfair Display;
-padding-top: 50px;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 93px;
 }
 .line{
     background-image: url(../img/Line.png);
     width: 120px;
     height: 1px;
-    margin-top: 51px;
+    margin-top: 38px;
     margin-left: auto;
     margin-right: auto;  
 }
@@ -130,6 +143,12 @@ padding-top: 50px;
     height: 730px; 
     text-align: center;
     
+}
+.watch-item{
+    width: 260px;
+    height: 405px;
+    display: flex;
+    justify-content: center;
 }
 .season-watch{
     background-image: url(../img/watchrec.png);
@@ -162,34 +181,50 @@ padding-top: 50px;
     color: white;
 }
 .d{
-    text-align: center;
     font-family: Playfair Display;
+    font-weight: bold;
     font-size: 36px;
-    position: relative;
-    top: 75%;
-    margin-bottom: 110px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 484px;
+
 }
 .line1{
     background-image: url(../img/Line.png);
     width: 120px;
     height: 1px;
-    margin-top: 601px;
+    margin-top: 558px;
     margin-left: auto;
     margin-right: auto;  
 }
-.catalog{
-    background-image: url(../img/catalog.png);
-    background-repeat: no-repeat;
-    margin-top: 15px;
-    margin-left: 370px;
-    width: 138px;
-    height: 47px;
-    text-align: center;  
+.button-image 
+{
+    background-color: transparent;
+    color: white;
+    min-width: 138px;
+    min-height: 47px;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 371px;
+    margin-right: 371px; 
+    text-align: center;
+
+}
+.button-imagetext
+{
+    font-family: PT Sans;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 28px;
+    margin-right: 28px;
 }
 .colection2018
 {
     display: flex;
     flex-wrap: wrap;
+    width: 1920px;
+    height: 600px;
 }
 .cbimage{
     background-image: url(../img/cbimage.png);
@@ -207,16 +242,144 @@ padding-top: 50px;
 {
     margin-top: 100px;
 }
-.viev-colection{
-    background-image: url(../img/COLEction.png);
-    width: 311px;
-    height: 47px;
-    background-repeat: no-repeat;
-    margin-top: 100px;
-    margin-left: 36%;
-}
-.new{
+
+.receipts{
     width: 1920px;
     height: 1289px;
     background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
 }
+.receipts-collection
+{
+   height: 850px;
+   width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 81px;
+    left: 405px;
+    right: 405px;
+    bottom: 150px; 
+}
+.brend
+{
+    width: 1920px;
+    height: 362px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center; 
+}
+.item-brand{
+    width: 1100px;
+    height: 101px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 405px;
+    margin-top: 40px;
+}
+.brand
+{
+   background-image: url(../img/brand.svg);
+   width: 255px;
+   height: 94px;
+}
+.feature{
+    background-image: url(../img/feature.png);
+    width: 1920px;
+    height: 400px;
+    color: white;   
+}
+.feature-item
+{
+    width: 1100px;
+    height: 219px;
+    padding-left: 405px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-inf{
+    font-family: Playfair Display;
+    font-size: 24px;
+    width: 350px;
+    height: 219px;
+      
+}
+.inf
+{
+    width: 350px;
+    height: 147px;
+    font-family: PT Sans;
+    font-size: 14px;
+    padding-top: 40px;
+    
+}
+.buttons
+{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    min-width: 70px;
+    min-height: 41px;
+    margin-top: 40px;
+    border-style: none;
+}
+.text-buttons{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.feedback-button{
+    padding-top: 37px;
+}
+.feedback-text{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid black;
+    width: 210px;
+    height: 42px;
+
+}
+::-webkit-input-placeholder {color:#969696;}
+.feedback-submit{
+    background-color: black;
+    width: 140px;
+    height: 46px;
+    color: white;
+    border-style: none;
+    margin-left: -8px;
+}
+.fooooooter{
+    width: 1920px;
+    height: 50px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.fooooooter-left
+{
+    margin-left: 405px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.fooooooter-right
+{
+    margin-right: 405px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
