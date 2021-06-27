@@ -44,6 +44,9 @@
  border-style: none;
  margin: 4px 2px;
 }
+.button:active {
+    transform: translateY(1px);
+}
 .disabled
 {
 background-color: #0F0F0F;
@@ -208,8 +211,12 @@ color: #969696;
     margin-left: 371px;
     margin-right: 371px; 
     text-align: center;
-
 }
+.button-image:active {
+    background-color: rgb(31, 31, 31);
+    transform: translateY(4px);
+}
+
 .button-imagetext
 {
     font-family: PT Sans;
@@ -219,6 +226,7 @@ color: #969696;
     margin-left: 28px;
     margin-right: 28px;
 }
+
 .colection2018
 {
     display: flex;
@@ -328,6 +336,10 @@ color: #969696;
     margin-top: 40px;
     border-style: none;
 }
+.buttons:active {
+    background-color: rgb(31, 31, 31);
+    transform: translateY(4px);
+}
 .text-buttons{
     margin-top: 10px;
     margin-left: 20px;
@@ -352,6 +364,9 @@ color: #969696;
     color: white;
     border-style: none;
     margin-left: -8px;
+}
+.feedback-submit:active {
+    transform: translateY(1px);
 }
 .fooooooter{
     width: 1920px;
